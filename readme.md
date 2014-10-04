@@ -1,16 +1,14 @@
 
-<h2> ISWC 2014 Papers (Preprint)  </h2>
+# Open Access Preprint Papers in ISWC 2014 Proceedings
 
 *  [Semantic Web In Use Track Paper](#Semantic Web In Use Track Paper)
 *  [Research Track Paper](#Research Track Paper)
 *  [Replication, Benchmark, Data and Software Track Paper](#Replication, Benchmark, Data and Software Track Paper)
 *  [Doctoral Consortium Paper](#Doctoral Consortium Paper)
-*  [Demo Paper](#Demo Paper)
-*  [Poster Paper](#Poster Paper)
-*  [Industry Track Paper](#Industry Track Paper)
 
 
-<h3> Semantic Web In Use Track Paper </h3>
+
+## <a name="Semantic Web In Use Track Paper">Semantic Web In Use Track Paper</a>
 * <b>CAMO: Integration of Linked Open Data for Multimedia Metadata Enrichment</b>, Wei Hu, Cunxin Jia, Lei Wan, Liang He, Lixia Zhou and Yuzhong Qu, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960001-camo-integration-of-linked-open-data-for-multimedia-metadata-enrichment.pdf)
 * <b>EPCIS event based traceability in pharmaceutical supply chains via automated generation of linked pedigrees</b>, Monika Solanki and Christopher Brewster, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960081-epcis-event-based-traceability-in-pharmaceutical-supply-chains-via-automated-generation-of-linked-pedigrees.pdf)
 * <b>Scientific lenses to support multiple views over linked chemistry data</b>, Colin Batchelor, Christian Y. A. Brenninkmeijer, Christine Chichester, Mark Davies, Daniela Digles, Ian Dunlop, Chris T Evelo, Anna Gaulton, Carole Goble, Alasdair J. G. Gray, Paul Groth, Lee Harland, Karen Karapetyan, Antonis Loizou, John P Overington, Steve Pettifer,Jon Steele, Robert Stevens, Valery Tkachenko, Andra Waagmeester, Antony Williams and Egon L Willighagen, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960097-scientific-lenses-to-support-multiple-views-over-linked-chemistry-data.pdf)
@@ -26,7 +24,8 @@
 * <b>Linked Open Data Driven Game Generation</b>, Rob Warren and Erik Champion, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970353-linked-open-data-driven-game-generation.pdf)
 * <b>Querying Heterogeneous Personal Information On The Go</b>, Danh Le Phuoc, Anh Le Tuan, Gregor Schiele and Manfred Hauswirth, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970449-querying-heterogeneous-personal-information-on-the-go.pdf)
 * <b>The Web Browser Personalization with the Client Side Triplestore</b>, Hitoshi Uchida, Ralph Swick and Andrei Sambra, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970465-the-web-browser-personalization-with-the-client-side-triplestore.pdf)
-<h3> Research Track Paper </h3>
+
+## <a name="Research Track Paper">Research Track Paper</a>
 * <b>HELIOS -- Execution Optimization for Link Discovery</b>, Axel-Cyrille Ngonga Ngomo, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960017-helios-execution-optimization-for-link-discovery.pdf)
 * <b>SAKey: Scalable Almost Key discovery in RDF data</b>, Danai Symeonidou, Vincent Armant, Nathalie Pernelle and Fatiha Saïs, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960033-sakey-scalable-almost-key-discovery-in-rdf-data.pdf)
 * <b>Drug-Target Interaction Prediction Using Semantic Similarity and Edge Partition</b>, Guillermo Palma, Maria-Esther Vidal and Louiqa Raschid, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960129-drug-target-interaction-prediction-using-semantic-similarity-and-edge-partition.pdf)
@@ -65,7 +64,8 @@
 * <b>Toward the Web of Functions: Interoperable Higher-Order Functions in SPARQL</b>, Maurizio Atzori, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970401-toward-the-web-of-functions-interoperable-higher-order-functions-in-sparql.pdf)
 * <b>Explass: Exploring Associations between Entities via Top-K Ontological Patterns and Facets</b>, Gong Cheng, Yanan Zhang and Yuzhong Qu, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970417-explass-exploring-associations-between-entities-via-top-k-ontological-patterns-and-facets.pdf)
 * <b>Expressive and Scalable Query-based Faceted Search over SPARQL Endpoints</b>, Sébastien Ferré, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970433-expressive-and-scalable-query-based-faceted-search-over-sparql-endpoints.pdf)
-<h3> Replication, Benchmark, Data and Software Track Paper </h3>
+
+## <a name="Replication, Benchmark, Data and Software Track Paper">Replication, Benchmark, Data and Software Track Paper</a>
 * <b>Introducing Wikidata to the Linked Data Web</b>, Fredo Erxleben, Michael Günther, Markus Krötzsch, Julian Mendez and Denny Vrandečić, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960049-introducing-wikidata-to-the-linked-data-web.pdf)
 * <b>Web-Scale Extension of RDF Knowledge Bases from Templated Websites</b>, Lorenz Bühmann, Ricardo Usbeck, Axel-Cyrille Ngonga Ngomo, Muhammad Saleem, Andreas Both, Valter Crescenzi, Paolo Merialdo and Disheng Qiu, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960065-web-scale-extension-of-rdf-knowledge-bases-from-templated-websites.pdf)
 * <b>Diversified Stress Testing of RDF Data Management Systems</b>, Gunes Aluc, Olaf Hartig, Tamer Ozsu and Khuzaima Daudjee, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87960193-diversified-stress-testing-of-rdf-data-management-systems.pdf)
@@ -82,14 +82,12 @@
 * <b>A Study on the Atomic Decomposition of Ontologies</b>, Matthew Horridge, Jonathan Mortensen, Bijan Parsia, Uli Sattler and Mark Musen, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970065-a-study-on-the-atomic-decomposition-of-ontologies.pdf)
 * <b>Ontology Search: An Empirical Evaluation</b>, Anila Sahar Butt, Armin Haller and Lexing Xie, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970129-ontology-search-an-empirical-evaluation.pdf)
 * <b>Crowd Truth: Machine-Human Computation Framework for Harnessing Disagreement in Gathering Annotated Data</b>, Khalid Khamkham, Oana Inel, Tatiana Cristea, Arne Rutjes, Jelle van der Ploeg, Lora Aroyo, Robert-Jan Sips, Anca Dumitrache and Lukasz Romaszko, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970481-crowd-truth-machine-human-computation-framework-for-harnessing-disagreement-in-gathering-annotated-data.pdf)
-<h3> Doctoral Consortium Paper </h3>
+
+## <a name="Doctoral Consortium Paper">Doctoral Consortium Paper</a>
 * <b>Joint Information Extraction from the Web using Linked Data</b>, Isabelle Augenstein, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970499-joint-information-extraction-from-the-web-using-linked-data.pdf)
 * <b>Entity Linking with Multiple Knowledge Bases: an Ontology Modularization Approach</b>, Bianca De O. Pereira, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970507-entity-linking-with-multiple-knowledge-bases-an-ontology-modularization-approach.pdf)
 * <b>Populating Entity Name Systems for Big Data Integration</b>, Mayank Kejriwal, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970515-populating-entity-name-systems-for-big-data-integration.pdf)
 * <b>Semantic Complex Event Processing for Decision Support</b>, Robin Keskisärkkä, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970523-semantic-complex-event-processing-for-decision-support.pdf)
 * <b>Enriching Ontologies with Encyclopedic Background Knowledge for Document Indexing</b>, Lisa Posch, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970531-enriching-ontologies-with-encyclopedic-background-knowledge-for-document-indexing.pdf)
 * <b>Detecting and Correcting Conservativity Principle Violations in Ontology Mappings</b>, Alessandro Solimando, [PDF](https://github.com/lidingpku/iswc2014/raw/master/paper/87970539-detecting-and-correcting-conservativity-principle-violations-in-ontology-mappings.pdf)
-<h3> Demo Paper </h3>
-<h3> Poster Paper </h3>
-<h3> Industry Track Paper </h3>
 
