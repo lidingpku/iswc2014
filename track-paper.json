@@ -1,0 +1,700 @@
+{
+    "title": "Open Access Preprint Papers in ISWC 2014 Proceedings", 
+    "tracks": [
+        {
+            "papers": [
+                {
+                    "abstract": "Metadata is a vital factor for effective management, organization and retrieval of multimedia content. In this paper, we introduce CAMO, a new system developed jointly with Samsung to enrich multimedia metadata by integrating Linked Open Data (LOD). Large-scale, heterogeneous LOD sources, e.g., DBpedia, LinkMDB and MusicBrainz, are integrated using ontology matching and instance linkage techniques. A mobile app for Android devices is built on top of the LOD to improve multimedia content browsing. An empirical evaluation is conducted to demonstrate the effectiveness and accuracy of the system in the multimedia domain.", 
+                    "author": "Wei Hu, Cunxin Jia, Lei Wan, Liang He, Lixia Zhou and Yuzhong Qu", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960001-camo-integration-of-linked-open-data-for-multimedia-metadata-enrichment.pdf", 
+                    "pages": "1-16", 
+                    "paper_id_x": "87960001", 
+                    "title": "CAMO: Integration of Linked Open Data for Multimedia Metadata Enrichment", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "In this paper we show how event processing over semantically annotated streams of events can be exploited, for implementing tracing and tracking of products in supply chains through the automated generation of linked pedigrees. In our abstraction, events are encoded as spatially and temporally oriented named graphs, while linked pedigrees as RDF datasets are their specific compositions. We propose an algorithm that operates over streams of RDF annotated EPCIS events to generate linked pedigrees. We exemplify our approach using the pharmaceuticals supply chain and show how counterfeit detection is an implicit part of our pedigree generation. Our evaluation results show that for fast moving supply chains, smaller window sizes on event streams provide significantly higher efficiency in the generation of pedigrees as well as enable early counterfeit detection.", 
+                    "author": "Monika Solanki and Christopher Brewster", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960081-epcis-event-based-traceability-in-pharmaceutical-supply-chains-via-automated-generation-of-linked-pedigrees.pdf", 
+                    "pages": "81-96", 
+                    "paper_id_x": "87960081", 
+                    "title": "EPCIS event based traceability in pharmaceutical supply chains via automated generation of linked pedigrees", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "When are two entries about a small molecule in different datasets the same? If they have the same drug name, chemical structure, or some other criteria? The choice depends upon the application to which the data will be put. However, existing Linked Data approaches provide a single global view over the data with no way of varying the notion of equivalence to be applied. In this paper, we present an approach to enable applications to choose the equivalence criteria to apply between datasets. Thus, supporting multiple dynamic views over the Linked Data. For chemical data, we show that multiple sets of links can be automatically generated according to different equivalence criteria and published with semantic descriptions capturing their context and interpretation. This approach has been applied within a large scale public-private data integration platform for drug discovery. To cater for different use cases, the platform allows the application of different lenses which vary the equivalence rules to be applied based on the context and interpretation of the links.", 
+                    "author": "Colin Batchelor, Christian Y. A. Brenninkmeijer, Christine Chichester, Mark Davies, Daniela Digles, Ian Dunlop, Chris T Evelo, Anna Gaulton, Carole Goble, Alasdair J. G. Gray, Paul Groth, Lee Harland, Karen Karapetyan, Antonis Loizou, John P Overington, Steve Pettifer,Jon Steele, Robert Stevens, Valery Tkachenko, Andra Waagmeester, Antony Williams and Egon L Willighagen", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960097-scientific-lenses-to-support-multiple-views-over-linked-chemistry-data.pdf", 
+                    "pages": "97-112", 
+                    "paper_id_x": "87960097", 
+                    "title": "Scientific lenses to support multiple views over linked chemistry data", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "The increase in the volume and heterogeneity of biomedical data sources has motivated researchers to embrace Linked Data (LD) technologies to solve the ensuing integration challenges and enhance information discovery. As an integral part of the EU GRANATUM project, a Linked Biomedical Dataspace (LBDS) was developed to semantically interlink data from multiple sources and augment the design of in silico experiments for cancer chemoprevention drug discovery. The different components of the LBDS facilitate both the bioinformaticians and the biomedical researchers to publish, link, query and visually explore the heterogeneous datasets. We have extensively evaluated the usability of the entire platform. In this paper, we showcase three different workflows depicting real-world scenarios on the use of LBDS by the domain users to intuitively retrieve meaningful information from the integrated sources. We report the important lessons that we learned through the challenges encountered and our accumulated experience during the collaborative processes which would make it easier for LD practitioners to create such dataspaces in other domains. We also provide a concise set of generic recommendations to develop LD platforms useful for drug discovery.", 
+                    "author": "Ali Hasnain, Maulik R. Kamdar, Panagiotis Hasapis, Dimitris Zeginis, Claude N. Warren Jr, Helena F Deus, Dimitrios Ntalaperas, Konstantinos Tarabanis, Muntazir Mehdi and Stefan Decker", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960113-linked-biomedical-dataspace-lessons-learned-integrating-data-for-drug-discovery.pdf", 
+                    "pages": "113-128", 
+                    "paper_id_x": "87960113", 
+                    "title": "Linked Biomedical Dataspace: Lessons Learned integrating Data for Drug Discovery", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "Linked Data has grown to become one of the largest available knowledge bases. Unfortunately, this wealth of data remains inaccessible to those without in-depth knowledge of semantic technologies. We describe a toolchain enabling users without semantic technology background to explore and visually analyse Linked Data. We demonstrate its applicability in scenarios involving data from the Linked Open Data Cloud, and research data extracted from scientific publications. Our focus is on the Web-based front-end consisting of querying and visualisation tools. The performed usability evaluations unveil mainly positive results confirming that the Query Wizard simplifies searching, refining and transforming Linked Data and, in particular, that people using the Visualisation Wizard quickly learn to perform interactive analysis tasks on the resulting Linked Data sets. In making Linked Data analysis effectively accessible to the general public, our tool has been integrated in a number of live services where people use it to analyse, discover and discuss facts with Linked Data.", 
+                    "author": "Vedran Sabol, Gerwald Tschinkel, Eduardo Veas, Patrick Hoefler, Belgin Mutlu and Michael Granitzer", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960305-discovery-and-visual-analysis-of-linked-data-for-humans.pdf", 
+                    "pages": "305-320", 
+                    "paper_id_x": "87960305", 
+                    "title": "Discovery and Visual Analysis of Linked Data for Humans", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "We present a description and analysis of the data access challenge in the Siemens Energy. We advocate for Ontology Based Data Access (OBDA) as a suitable Semantic Web driven technology to address the challenge. We derive requirements for applying OBDA in Siemens, review existing OBDA systems and discuss their limitations with respect to the Siemens requirements. We then introduce the Optique platform as a suitable OBDA solution for Siemens. Finally, we describe our preliminary installation and evaluation of the platform in Siemens.", 
+                    "author": "Evgeny Kharlamov, Nina Solomakhina, Özgür Lütfü Özcep, Dmitriy Zheleznyakov, Thomas Hubauer, Steffen Lamparter, Mikhail Roshchin and Ahmet Soylu", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960591-how-semantic-technologies-can-enhance-data-access-at-siemens-energy.pdf", 
+                    "pages": "591-606", 
+                    "paper_id_x": "87960591", 
+                    "title": "How Semantic Technologies can Enhance Data Access at Siemens Energy", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "In order to enable interoperability between ontology-based systems, ontology matching techniques have been proposed. However, when the generated mappings suffer from logical flaws, their usefulness may be diminished. In this paper we present an approximate method to detect and correct violations to the so-called conservativity principle where novel subsumption entailments between named concepts in one of the input ontologies are considered as unwanted. We show that this is indeed the case in our application domain based on the EU Optique project. Additionally, our extensive evaluation conducted with both the Optique use case and the data sets from the Ontology Alignment Evaluation Initiative (OAEI) suggests that our method is both useful and feasible in practice.", 
+                    "author": "Alessandro Solimando, Ernesto Jimenez-Ruiz and Giovanna Guerrini", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970001-detecting-and-correcting-conservativity-principle-violations-in-ontology-to-ontology-mappings.pdf", 
+                    "pages": "1-16", 
+                    "paper_id_x": "87970001", 
+                    "title": "Detecting and Correcting Conservativity Principle Violations in Ontology-to-Ontology Mappings", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "BioPortal is a repository for biomedical ontologies that also includes mappings between them from various sources. Considered as a whole, these mappings may cause logical errors, due to incompatibilities between the ontologies or even erroneous mappings. We have performed an automatic evaluation of BioPortal mappings between 19 ontology pairs using the mapping repair systems of LogMap and AgreementMakerLight. We found logical errors in 11 of these pairs, which on average involved 22% of the mappings between each pair. Furthermore, we conducted a manual evaluation of the repair results to identify the actual sources of error, verifying that erroneous mappings were behind over 60% of the repairs. Given the results of our analysis, we believe that annotating BioPortal mappings with information about their logical conflicts with other mappings would improve their usability for semantic web applications and facilitate the identification of erroneous mappings. In future work, we aim to collaborate with BioPortal developers in extending BioPortal with these annotations.", 
+                    "author": "Daniel Faria, Ernesto Jimenez-Ruiz, Catia Pesquita, Emanuel Santos and Francisco Couto", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970017-towards-annotating-potential-incoherences-in-bioportal-mappings.pdf", 
+                    "pages": "17-32", 
+                    "paper_id_x": "87970017", 
+                    "title": "Towards annotating potential incoherences in BioPortal mappings", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "The Semantic Web is intended as a web of machine readable data where every data source can be the data provider for different kinds of applications. However, due to a lack of support it is still cumbersome to work with RDF data in modern, object-oriented programming languages, in particular if the data source is only available through a SPARQL endpoint without further documentation or published schema information. In this setting, it is desirable to have an integrated tool-chain that helps to understand the data source during development and supports the developer in the creation of persistent data objects. To tackle these issues, we introduce LITEQ, a paradigm for integrating RDF data sources into programming languages and strongly typing the data. Additionally, we report on two use cases and show that compared to existing approaches LITEQ performs competitively according to the Halstead metric.", 
+                    "author": "Martin Leinberger, Stefan Scheglmann, Ralf Laemmel, Steffen Staab, Matthias Thimm and Evelyne Viegas", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970209-semantic-web-application-development-with-liteq.pdf", 
+                    "pages": "209-224", 
+                    "paper_id_x": "87970209", 
+                    "title": "Semantic Web Application development with LITEQ", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "The widespread adoption of Information Technology systems and their capability to trace data about process executions has made available Information Technology data for the analysis of process executions. Meanwhile, at business level, static and procedural knowledge, which can be exploited to analyze and reason on data, is often available. In this paper we aim at providing an approach that, combining static and procedural aspects, business and data levels and exploiting semantic-based techniques allows business analysts to infer knowledge and use it to analyze system executions. The proposed solution has been implemented using current scalable Semantic Web technologies, that offer the possibility to keep the advantages of semantic-based reasoning with non-trivial quantities of data.", 
+                    "author": "Chiara Di Francescomarino,  Francesco Corcoglioniti, Mauro Dragoni, Piergiorgio Bertoli, Roberto Tiella, Chiara Ghidini, Michele Nori and Marco Pistore", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970225-semantic-based-process-analysis.pdf", 
+                    "pages": "225-240", 
+                    "paper_id_x": "87970225", 
+                    "title": "Semantic-based Process Analysis", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "IBM STAR-CITY is a system supporting Semantic road Traffic Analytics and Reasoning for CITY. The system has ben designed (i) to provide insight on historical and real-time traffic conditions, and (ii) to support efficient urban planning by integrating (human and machine-based) sensor data using variety of formats, velocities and volumes. Initially deployed and experimented in Dublin City (Ireland), the system and its architecture have been strongly limited by its flexibility and scalability to other cities. This paper describes its limitations and presents the “any-city” architecture of STAR-CITY together with its semantic configuration for flexible and scalable deployment in any city. This paper also strongly focuses on lessons learnt from its deployment and experimentation in Dublin (Ireland), Bologna (Italy), Miami (USA) and Rio (Brazil).", 
+                    "author": "Freddy Lecue, Robert Tucker, Simone Tallevi-Diotallevi,  Rahul Nair, Yiannis Gkoufas, Giuseppe Liguori, Mauro Borioni, Alexandre Rademaker and Luciano Barbosa", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970289-semantic-traffic-diagnosis-with-star-city-architecture-and-lessons-learned-from-deployment-in-dublin-bologna-miami-and-rio.pdf", 
+                    "pages": "289-304", 
+                    "paper_id_x": "87970289", 
+                    "title": "Semantic Traffic Diagnosis with STAR-CITY: Architecture and Lessons Learned from Deployment in Dublin, Bologna, Miami and Rio", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "The Internet of Things is one of the next big changes in which devices, objects, and sensors are getting linked to the semantic web. However, the increasing availability of generated data leads to new integration problems. In this paper we present an architecture and approach that illustrates how semantic sensor networks, semantic web technologies, and reasoning can help in real-world applications to automatically derive complex models for analytics tasks such as prediction and diagnostics. We demonstrate our approach for buildings and their numerous connected sensors and show how our semantic framework allows us to detect and diagnose abnormal building behavior. This can lead to not only an increase of occupant well-being but also to a reduction of energy use. Given that buildings consume 40 % of the world’s energy use we therefore also make a contribution towards global sustainability. The experimental evaluation shows the benefits of our approach for buildings at IBM’s Technology Campus in Dublin.", 
+                    "author": "Joern Ploennigs, Anika Schumann and Freddy Lecue", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970305-adapting-semantic-sensor-networks-for-smart-building-diagnosis.pdf", 
+                    "pages": "305-320", 
+                    "paper_id_x": "87970305", 
+                    "title": "Adapting Semantic Sensor Networks for Smart Building Diagnosis", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "Linked Open Data provides a means of unified access to large and complex interconnected data sets that concern themselves with a surprising breath and depth of topics. This unified access in turn allows for the consumption of this data for modelling cultural heritage sites, historical events or creating serious games. In the following paper we present our work on simulating the terrain of a Great War battle using data from multiple Linked Open Data projects.", 
+                    "author": "Rob Warren and Erik Champion", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970353-linked-open-data-driven-game-generation.pdf", 
+                    "pages": "353-368", 
+                    "paper_id_x": "87970353", 
+                    "title": "Linked Open Data Driven Game Generation", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "Mobile devices are becoming a central data integration hub for personal information. Thus, an up-to-date, comprehensive and consolidated view of this information across heterogeneous personal information spaces is required. Linked Data offers various solutions for integrating personal information, but none of them comprehensively addresses the specific resource constraints of mobile devices. To address this issue, this paper presents a unified data integration framework for resourceconstrained mobile devices. Our generic, extensible framework not only provides a unified view of personal data from different personal information data spaces but also can run on a user’s mobile device without any external server. To save processing resources, we propose a data normalisation approach that can deal with ID-consolidation and ambiguity issues without complex generic reasoning. This data integration approach is based on a triple storage for Android devices with small memory footprint. We evaluate our framework with a set of experiments on different devices and show that it is able to support complex queries on large personal data sets of more than one million triples on typical mobile devices with very small memory footprint.", 
+                    "author": "Danh Le Phuoc, Anh Le Tuan, Gregor Schiele and Manfred Hauswirth", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970449-querying-heterogeneous-personal-information-on-the-go.pdf", 
+                    "pages": "449-464", 
+                    "paper_id_x": "87970449", 
+                    "title": "Querying Heterogeneous Personal Information On The Go", 
+                    "track": "Semantic Web In Use Track Paper"
+                }, 
+                {
+                    "abstract": "We introduce a client side triplestore library for HTML5 web applications and a personalization technology for web browsers working with this library. The triplestore enables HTML5 web applications to store semantic data into HTML5 Web Storage. The personalization technology enables web browsers to collect semantic data from the web and utilize them for enhanced user experience on web pages as users browse. We show new potentials for web browsers to provide new user experiences by personalizing with semantic web technology.", 
+                    "author": "Hitoshi Uchida, Ralph Swick and Andrei Sambra", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970465-the-web-browser-personalization-with-the-client-side-triplestore.pdf", 
+                    "pages": "465-480", 
+                    "paper_id_x": "87970465", 
+                    "title": "The Web Browser Personalization with the Client Side Triplestore", 
+                    "track": "Semantic Web In Use Track Paper"
+                }
+            ], 
+            "title": "Semantic Web In Use Track Paper"
+        }, 
+        {
+            "papers": [
+                {
+                    "abstract": "Links between knowledge bases build the backbone of the Linked Data Web. In previous works, the combination of the results of time-efficient algorithms through set-theoretical operators has been shown to be very timeefficient for Link Discovery. However, the further optimization of such link specifications has not been paid much attention to. We address the issue of further optimizing the runtime of link specifications by presenting HELIOS, a runtime optimizer for Link Discovery. HELIOS comprises both a rewriter and an execution planner for link specifications. The rewriter is a sequence of fixed-point iterators for algebraic rules. The planner relies on time-efficient evaluation functions to generate execution plans for link specifications. We evaluate HELIOS on 17 specifications created by human experts and 2180 specifications generated automatically. Our evaluation shows that HELIOS is up to 300 times faster than a canonical planner. Moreover, HELIOS’ improvements are statistically significant.", 
+                    "author": "Axel-Cyrille Ngonga Ngomo", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960017-helios-execution-optimization-for-link-discovery.pdf", 
+                    "pages": "17-32", 
+                    "paper_id_x": "87960017", 
+                    "title": "HELIOS -- Execution Optimization for Link Discovery", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Exploiting identity links among RDF resources allows applications to efficiently integrate data. Keys can be very useful to discover these identity links. A set of properties is considered as a key when its values uniquely identify resources. However, these keys are usually not available. The approaches that attempt to automatically discover keys can easily be overwhelmed by the size of the data and require clean data. We present SAKey, an approach that discovers keys in RDF data in an efficient way. To prune the search space, SAKey exploits characteristics of the data that are dynamically detected during the process. Furthermore, our approach can discover keys in datasets where erroneous data or duplicates exist (i.e., almost keys). The approach has been evaluated on different synthetic and real datasets. The results show both the relevance of almost keys and the efficiency of discovering them.", 
+                    "author": "Danai Symeonidou, Vincent Armant, Nathalie Pernelle and Fatiha Saïs", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960033-sakey-scalable-almost-key-discovery-in-rdf-data.pdf", 
+                    "pages": "33-48", 
+                    "paper_id_x": "87960033", 
+                    "title": "SAKey: Scalable Almost Key discovery in RDF data", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "The ability to integrate a wealth of human-curated knowledge from scientific datasets and ontologies can benefit drug-target interaction prediction. The hypothesis is that similar drugs interact with the same targets, and similar targets interact with the same drugs. The similarities between drugs reflect a chemical semantic space, while similarities between targets reflect a genomic semantic space. In this paper, we present a novel method that combines a data mining framework for link prediction, semantic knowledge (similarities) from ontologies or semantic spaces, and an algorithmic approach to partition the edges of a heterogeneous graph that includes drug-target interaction edges, and drug-drug and target-target similarity edges. Our semantics based edge partitioning approach, semEP, has the advantages of edge based community detection which allows a node to participate in more than one cluster or community. The semEP problem is to create a minimal partitioning of the edges such that the cluster density of each subset of edges is maximal. We use semantic knowledge (similarities) to specify edge constraints, i.e., specific drug-target interaction edges that should not participate in the same cluster. Using a well-known dataset of drug-target interactions, we demonstrate the benefits of using semEP predictions to improve the performance of a range of state-of-the-art machine learning based prediction methods. Validation of the novel best predicted interactions of semEP against the STITCH interaction resource reflect both accurate and diverse predictions.", 
+                    "author": "Guillermo Palma, Maria-Esther Vidal and Louiqa Raschid", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960129-drug-target-interaction-prediction-using-semantic-similarity-and-edge-partition.pdf", 
+                    "pages": "129-144", 
+                    "paper_id_x": "87960129", 
+                    "title": "Drug-Target Interaction Prediction Using Semantic Similarity and Edge Partition", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "The recent big data movement resulted in a surge of activity on layering declarative languages on top of distributed computation platforms. In the Semantic Web realm, this surge of analytics languages was not reflected despite the significant growth in the available RDF data. Consequently, when analysing large RDF datasets, users are left with two main options: using SPARQL or using an existing non-RDF-specific big data language, both with its own limitations. The pure declarative nature of SPARQL and the high cost of evaluation can be limiting in some scenarios. On the other hand, existing big data languages are designed mainly for tabular data and, therefore, applying them to RDF data results in verbose, unreadable, and sometimes inefficient scripts. In this paper, we introduce SYRql, a dataflow language designed to process RDF data at a large scale. SYRql blends concepts from both SPARQL and existing big data languages. We formally define a closed algebra that underlies SYRql and discuss its properties and some unique optimisation opportunities this algebra provides. Furthermore, we describe an implementation that translates SYRql scripts into a series of MapReduce jobs and compare the performance to other big data processing languages.", 
+                    "author": "Fadi Maali, Padmashree Ravindra, Kemafor Anyanwu and Stefan Decker", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960145-syrql-a-dataflow-language-for-large-scale-processing-of-rdf-data.pdf", 
+                    "pages": "145-160", 
+                    "paper_id_x": "87960145", 
+                    "title": "SYRql: A Dataflow Language for Large Scale Processing of RDF Data", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Driven by initiatives like Schema.org, the amount of semantically annotated data is expected to grow steadily towards massive scale, requiring cluster-based solutions to query it. At the same time, Hadoop has become dominant in the area of Big Data processing with large infrastructures being already deployed and used in manifold application fields. For Hadoop-based applications, a common data pool (HDFS) provides many synergy benefits, making it very attractive to use these infrastructures for semantic data processing as well. Indeed, existing SPARQL-onHadoop (MapReduce) approaches have already demonstrated very good scalability, however, query runtimes are rather slow due to the underlying batch processing framework. While this is acceptable for data-intensive queries, it is not satisfactory for the majority of SPARQL queries that are typically much more selective requiring only small subsets of the data. In this paper, we present Sempala, a SPARQL-over-SQL-on-Hadoop approach designed with selective queries in mind. Our evaluation shows performance improvements by an order of magnitude compared to existing approaches, paving the way for interactive-time SPARQL query processing on Hadoop.", 
+                    "author": "Alexander Schätzle, Martin Przyjaciel-Zablocki, Antony Neu and Georg Lausen", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960161-sempala-interactive-sparql-query-processing-on-hadoop.pdf", 
+                    "pages": "161-176", 
+                    "paper_id_x": "87960161", 
+                    "title": "Sempala: Interactive SPARQL Query Processing on Hadoop", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "As the Web of Data is growing at an ever increasing speed, the lack of reliable query solutions for live public data becomes apparent. sparql implementations have matured and deliver impressive performance for public sparql endpoints, yet poor availability—especially under high loads—prevents their use in real-world applications. We propose to tackle this availability problem by defining triple pattern fragments, a specific kind of Linked Data Fragments that enable low-cost publication of queryable data by moving intelligence from the server to the client. This paper formalizes the Linked Data Fragments concept, introduces a client-side sparql query processing algorithm that uses a dynamic iterator pipeline, and verifies servers’ availability under load. The results indicate that, at the cost of lower performance, query techniques with triple pattern fragments lead to high availability, thereby allowing for reliable applications on top of public, queryable Linked Data.", 
+                    "author": "Ruben Verborgh, Olaf Hartig, Ben De Meester, Gerald Haesendonck, Laurens De Vocht, Miel Vander Sande, Richard Cyganiak, Pieter Colpaert, Erik Mannens and Rik Van de Walle", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960177-querying-datasets-on-the-web-with-high-availability.pdf", 
+                    "pages": "177-192", 
+                    "paper_id_x": "87960177", 
+                    "title": "Querying Datasets on the Web with High Availability", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Schema.org is a way to add machine-understandable information to web pages that is processed by the major search engines to improve search performance. The definition of schema.org is provided as a set of web pages plus a partial mapping into RDF triples with unusual properties, and is incomplete in a number of places. This analysis of and formal semantics for schema.org provides a complete basis for a plausible version of what schema.org should be.", 
+                    "author": "Peter F. Patel-Schneider", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960257-analyzing-schemaorg.pdf", 
+                    "pages": "257-272", 
+                    "paper_id_x": "87960257", 
+                    "title": "Analyzing Schema.org", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Linked Open Data faces severe issues of scalability, availability and data quality. These issues are observed by data consumers performing federated queries; SPARQL endpoints do not respond and results can be wrong or out-of-date. If a data consumer finds an error, how can she fix it? This raises the issue of the writability of Linked Data. In this paper, we devise an extension of the federation of Linked Data to data consumers. A data consumer can make partial copies of different datasets and make them available through a SPARQL endpoint. A data consumer can update her local copy and share updates with data providers and consumers. Update sharing improves general data quality, and replicated data creates opportunities for federated query engines to improve availability. However, when updates occur in an uncontrolled way, consistency issues arise. In this paper, we define fragments as SPARQL CONSTRUCT federated queries and propose a correction criterion to maintain these fragments incrementally without reevaluating the query. We define a coordination free protocol based on the counting of triples derivations and provenance. We analyze the theoretical complexity of the protocol in time, space and traffic. Experimental results suggest the scalability of our approach to Linked Data.", 
+                    "author": "Luis-Daniel Ibáñez, Hala Skaf-Molli, Pascal Molli and Olivier Corby", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960321-col-graph-towards-writable-and-scalable-linked-open-data.pdf", 
+                    "pages": "321-336", 
+                    "paper_id_x": "87960321", 
+                    "title": "Col-Graph: Towards Writable and Scalable Linked Open Data", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Matrix Factorisation is a recommendation approach that tries to understand what factors interest a user, based on his past ratings for items (products, movies, songs), and then use this factor information to predict future item ratings. A central limitation of this approach however is that it cannot capture how a user’s tastes have evolved beforehand; thereby ignoring if a user’s preference for a factor is likely to change. One solution to this is to include users’ preferences for semantic (i.e. linked data) categories, however this approach is limited should a user be presented with an item for which he has not rated the semantic categories previously; so called cold-start categories. In this paper we present a method to overcome this limitation by transferring rated semantic categories in place of unrated categories through the use of vertex kernels; and incorporate this into our prior SemanticSV D++ model. We evaluated several vertex kernels and their effects on recommendation error, and empirically demonstrate the superior performance that we achieve over: (i) existing SV D and SV D++ models; and (ii) SemanticSV D++ with no transferred semantic categories.", 
+                    "author": "Matthew Rowe", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960337-transferring-semantic-categories-with-vertex-kernels-recommendations-with-semanticsvd.pdf", 
+                    "pages": "337-352", 
+                    "paper_id_x": "87960337", 
+                    "title": "Transferring Semantic Categories with Vertex Kernels: Recommendations with SemanticSVD++", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Outlier detection used for identifying wrong values in data is typically applied to single datasets to search them for values of unexpected behavior. In this work, we instead propose an approach which combines the outcomes of two independent outlier detection runs to get a more reliable result and to also prevent problems arising from natural outliers which are exceptional values in the dataset but nevertheless correct. Linked Data is especially suited for the application of such an idea, since it provides large amounts of data enriched with hierarchical information and also contains explicit links between instances. In a first step, we apply outlier detection methods to the property values extracted from a single repository, using a novel approach for splitting the data into relevant subsets. For the second step, we exploit owl:sameAs links for the instances to get additional property values and perform a second outlier detection on these values. Doing so allows us to confirm or reject the assessment of a wrong value. Experiments on the DBpedia and NELL datasets demonstrate the feasibility of our approach.", 
+                    "author": "Daniel Fleischhacker, Heiko Paulheim, Volha Bryl, Johanna Völker and Christian Bizer", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960353-detecting-errors-in-numerical-linked-data-using-cross-checked-outlier-detection.pdf", 
+                    "pages": "353-368", 
+                    "paper_id_x": "87960353", 
+                    "title": "Detecting Errors in Numerical Linked Data using Cross-Checked Outlier Detection", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Semantic datasets provide support to automate many tasks such as decision-making and question answering. However, their performance is always decreased by the noises in the datasets, among which, noisy type assertions play an important role. This problem has been mainly studied in the domain of data mining but not in the semantic web community. In this paper, we study the problem of noisy type assertion detection in semantic web datasets by making use of concept disjointness relationships hidden in the datasets. We transform noisy type assertion detection into multiclass classification of pairs of type assertions which type an individual to two potential disjoint concepts. The multiclass classification is solved by Adaboost with C4.5 as the base classifier. Furthermore, we propose instance-concept compatability metrics based on instance-instance relationships and instance-concept assertions. We evaluate the approach on both synthetic datasets and DBpedia. Our approach effectively detect noisy type assertions in DBpedia with a high precision of 95%.", 
+                    "author": "Man Zhu, Zhiqiang Gao and Zhibin Quan", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960369-noisy-type-assertion-detection-in-semantic-datasets.pdf", 
+                    "pages": "369-384", 
+                    "paper_id_x": "87960369", 
+                    "title": "Noisy Type Assertion Detection in Semantic Datasets", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "While the Semantic Web currently can exhibit provenance information by using the W3C PROV standards, there is a “missing link” in connecting PROV to storing and querying for dynamic changes to RDF graphs using SPARQL. Solving this problem would be required for such clear use-cases as the creation of version control systems for RDF. While some provenance models and annotation techniques for storing and querying provenance data originally developed with databases or workflows in mind transfer readily to RDF and SPARQL, these techniques do not readily adapt to describing changes in dynamic RDF datasets over time. In this paper we explore how to adapt the dynamic copypaste provenance model of Buneman et al. [2] to RDF datasets that change over time in response to SPARQL updates, how to represent the resulting provenance records themselves as RDF in a manner compatible with W3C PROV, and how the provenance information can be defined by reinterpreting SPARQL updates. The primary contribution of this paper is a semantic framework that enables the semantics of SPARQL Update to be used as the basis for a ‘cut-and-paste’ provenance model in a principled manner.", 
+                    "author": "Harry Halpin and James Cheney", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960417-dynamic-provenance-for-sparql-updates.pdf", 
+                    "pages": "417-432", 
+                    "paper_id_x": "87960417", 
+                    "title": "Dynamic Provenance for SPARQL Updates", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Updates in RDF stores have recently been standardised in the SPARQL 1.1 Update specification. However, computing entailed answers by ontologies is usually treated orthogonally to updates in triple stores. Even the W3C SPARQL 1.1 Update and SPARQL 1.1 Entailment Regimes specifications explicitly exclude a standard behaviour for entailment regimes other than simple entailment in the context of updates. In this paper, we take a first step to close this gap. We define a fragment of SPARQL basic graph patterns corresponding to (the RDFS fragment of) DL-Lite and the corresponding SPARQL update language, dealing with updates both of ABox and of TBox statements. We discuss possible semantics along with potential strategies for implementing them. In particular, we treat both, (i) materialised RDF stores, which store all entailed triples explicitly, and (ii) reduced RDF Stores, that is, redundancy-free RDF stores that do not store any RDF triples (corresponding to DL-Lite ABox statements) entailed by others already. We have implemented all semantics prototypically on top of an off-the-shelf triple store and present some indications on practical feasibility.", 
+                    "author": "Albin Ahmeti, Diego Calvanese and Axel Polleres", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960433-updating-rdfs-aboxes-and-tboxes-in-sparql.pdf", 
+                    "pages": "433-448", 
+                    "paper_id_x": "87960433", 
+                    "title": "Updating RDFS ABoxes and TBoxes in SPARQL", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Over the last decades, several billion Web pages have been made available on the Web. The ongoing transition from the current Web of unstructured data to the Web of Data yet requires scalable and accurate approaches for the extraction of structured data in RDF (Resource Description Framework) from these websites. One of the key steps towards extracting RDF from text is the disambiguation of named entities. While several approaches aim to tackle this problem, they still achieve poor accuracy. We address this drawback by presenting AGDISTIS, a novel knowledge-base-agnostic approach for named entity disambiguation. Our approach combines the Hypertext-Induced Topic Search (HITS) algorithm with label expansion strategies and string similarity measures. Based on this combination, AGDISTIS can efficiently detect the correct URIs for a given set of named entities within an input text. We evaluate our approach on eight different datasets against state-of-theart named entity disambiguation frameworks. Our results indicate that we outperform the state-of-the-art approach by up to 29% F-measure.", 
+                    "author": "Ricardo Usbeck, Axel-Cyrille Ngonga Ngomo, Michael Röder, Daniel Gerber, Sandro Athaide Coelho, Sören Auer and Andreas Both", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960449-agdistis-graph-based-disambiguation-of-named-entities-using-linked-data.pdf", 
+                    "pages": "449-463", 
+                    "paper_id_x": "87960449", 
+                    "title": "AGDISTIS - Graph-Based Disambiguation of Named Entities using Linked Data", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Many tasks in which a system needs to mediate between natural language expressions and elements of a vocabulary in an ontology or dataset require knowledge about how the elements of the vocabulary (i.e. classes, properties, and individuals) are expressed in natural language. In a multilingual setting, such knowledge is needed for each of the supported languages. In this paper we present M-ATOLL, a framework for automatically inducing ontology lexica in multiple languages on the basis of a multilingual corpus. The framework exploits a set of language-specific dependency patterns which are formalized as SPARQL queries and run over a parsed corpus. We have instantiated the system for two languages: German and English. We evaluate it in terms of precision, recall and F-measure for English and German by comparing an automatically induced lexicon to manually constructed ontology lexica for DBpedia. In particular, we investigate the contribution of each single dependency pattern and perform an analysis of the impact of different parameters.", 
+                    "author": "Sebastian Walter, Christina Unger and Philipp Cimiano", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960464-m-atoll-a-framework-for-the-lexicalization-of-ontologies-in-multiple-languages.pdf", 
+                    "pages": "464-478", 
+                    "paper_id_x": "87960464", 
+                    "title": "M-ATOLL: A Framework for the lexicalization of ontologies in multiple languages", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "This paper describes TableMiner, the first semantic Table Interpretation method that adopts an incremental, mutually recursive and bootstrapping learning approach seeded by automatically selected ‘partial’ data from a table. TableMiner labels columns containing named entity mentions with semantic concepts that best describe data in columns, and disambiguates entity content cells in these columns. TableMiner is able to use various types of contextual information outside tables for Table Interpretation, including semantic markups (e.g., RDFa/microdata annotations) that to the best of our knowledge, have never been used in Natural Language Processing tasks. Evaluation on two datasets shows that compared to two baselines, TableMiner consistently obtains the best performance. In the classification task, it achieves significant improvements of between 0.08 and 0.38 F1 depending on different baseline methods; in the disambiguation task, it outperforms both baselines by between 0.19 and 0.37 in Precision on one dataset, and between 0.02 and 0.03 F1 on the other dataset. Observation also shows that the bootstrapping learning approach adopted by TableMiner can potentially deliver computational savings of between 24 and 60% against classic methods that ‘exhaustively’ processes the entire table content to build features for interpretation.", 
+                    "author": "Ziqi Zhang", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960479-towards-efficient-and-effective-semantic-table-interpretation.pdf", 
+                    "pages": "479-494", 
+                    "paper_id_x": "87960479", 
+                    "title": "Towards Efficient and Effective Semantic Table Interpretation", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Given a source relational database, a target OWL ontology and a mapping from the source database to the target ontology, Ontology-Based Data Access (OBDA) concerns answering queries over the target ontology using these three components. This paper presents the development of UltrawrapOBDA, an OBDA system comprising bidirectional evaluation; that is, a hybridization of query rewriting and materialization. We observe that by compiling the ontological entailments as mappings, implementing the mappings as SQL views and materializing a subset of the views, the underlying SQL optimizer is able to reduce the execution time of a SPARQL query by rewriting the query in terms of the views specified by the mappings. To the best of our knowledge, this is the first OBDA system supporting ontologies with transitivity by using SQL recursion. Our contributions include: (1) an efficient algorithm to compile ontological entailments as mappings; (2) a proof that every SPARQL query can be rewritten into a SQL query in the context of mappings; (3) a cost model to determine which views to materialize to attain the fastest execution time; and (4) an empirical evaluation comparing with a state-of-the-art OBDA system, which validates the cost model and demonstrates favorable execution times.", 
+                    "author": "Juan F. Sequeda, Marcelo Arenas and Daniel P. Miranker", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960527-obda-query-rewriting-or-materialization-in-practice-both.pdf", 
+                    "pages": "527-542", 
+                    "paper_id_x": "87960527", 
+                    "title": "OBDA: Query Rewriting or Materialization? In Practice, Both!", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "We present an extension of the ontology-based data access platform Ontop that supports answering SPARQL queries under the OWL 2 QL direct semantics entailment regime for data instances stored in relational databases. On the theoretical side, we show how any input SPARQL query, OWL 2 QL ontology and R2RML mappings can be rewritten to an equivalent SQL query solely over the data. On the practical side, we present initial experimental results demonstrating that by applying the Ontop technologies—the tree-witness query rewriting, T -mappings compiling R2RML mappings with ontology hierarchies, and T -mapping optimisations using SQL expressivity and database integrity constraints—the system produces scalable SQL queries.", 
+                    "author": "Roman Kontchakov, Martin Rezk, Mariano Rodriguez-Muro, Guohui Xiao and Michael Zakharyaschev", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960543-answering-sparql-queries-over-databases-under-owl-2-ql-entailment-regim.pdf", 
+                    "pages": "543-558", 
+                    "paper_id_x": "87960543", 
+                    "title": "Answering SPARQL Queries over Databases under OWL 2 QL Entailment Regim", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "In this paper we study query answering and rewriting in ontologybased data access. Specifically, we present an algorithm for computing a perfect rewriting of unions of conjunctive queries posed over ontologies expressed in the description logic ELHIO, which covers the OWL 2 QL and OWL 2 EL profiles. The novelty of our algorithm is the use of a set of ABox dependencies, which are compiled into a so-called EBox, to limit the expansion of the rewriting. So far, EBoxes have only been used in query rewriting in the case of DL-Lite, which is less expressive than ELHIO. We have extensively evaluated our new query rewriting technique, and in this paper we discuss the tradeoff between the reduction of the size of the rewriting and the computational cost of our approach.", 
+                    "author": "Jose Mora, Riccardo Rosati and Oscar Corcho", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960559-kyrie2-query-rewriting-under-extensional-constraints-in-elhio.pdf", 
+                    "pages": "559-574", 
+                    "paper_id_x": "87960559", 
+                    "title": "kyrie2: Query Rewriting under Extensional Constraints in ELHIO", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "SPARQL 1.1 supports the use of ontologies to enrich query results with logical entailments, and OWL 2 provides a dedicated fragment OWL QL for this purpose. Typical implementations use the OWL QL schema to rewrite a conjunctive query into an equivalent set of queries, to be answered against the non-schema part of the data. With the adoption of the recent SPARQL 1.1 standard, however, RDF databases are capable of answering much more expressive queries directly, and we ask how this can be exploited in query rewriting. We find that SPARQL 1.1 is powerful enough to “implement” a full-fledged OWL QL reasoner in a single query. Using additional SPARQL 1.1 features, we develop a new method of schema-agnostic query rewriting, where arbitrary conjunctive queries over OWL QL are rewritten into equivalent SPARQL 1.1 queries in a way that is fully independent of the actual schema. This allows us to query RDF data under OWL QL entailment without extracting or preprocessing OWL axioms.", 
+                    "author": "Stefan Bischof, Markus Krötzsch, Axel Polleres and Sebastian Rudolph", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960575-schema-agnostic-query-rewriting-in-sparql-11.pdf", 
+                    "pages": "575-590", 
+                    "paper_id_x": "87960575", 
+                    "title": "Schema-Agnostic Query Rewriting in SPARQL 1.1", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "In this paper we define the notion of an axiom dependency hypergraph, which explicitly represents how axioms are included into a module by the algorithm for computing locality-based modules. A locality-based module of an ontology corresponds to a set of connected nodes in the hypergraph, and atoms of an ontology to strongly connected components. Collapsing the strongly connected components into single nodes yields a condensed hypergraph that comprises a representation of the atomic decomposition of the ontology. To speed up the condensation of the hypergraph, we first reduce its size by collapsing the strongly connected components of its graph fragment employing a linear time graph algorithm. This approach helps to significantly reduce the time needed for computing the atomic decomposition of an ontology. We provide an experimental evaluation for computing the atomic decomposition of large biomedical ontologies. We also demonstrate a significant improvement in the time needed to extract locality-based modules from an axiom dependency hypergraph and its condensed version.", 
+                    "author": "Francisco Martin-Recuerda and Dirk Walther", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970049-fast-modularisation-and-atomic-decomposition-of-ontologies-using-axiom-dependency-hypergraphs.pdf", 
+                    "pages": "49-64", 
+                    "paper_id_x": "87970049", 
+                    "title": "Fast Modularisation and Atomic Decomposition of Ontologies using Axiom Dependency Hypergraphs", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "The Linked Data cloud has grown to become the largest knowledge base ever constructed. Its size is now turning into a major bottleneck for many applications. In order to facilitate access to this structured information, this paper proposes an automatic sampling method targeted at maximizing answer coverage for applications using SPARQL querying. The approach presented in this paper is novel: no similar RDF sampling approach exist. Additionally, the concept of creating a sample aimed at maximizing SPARQL answer coverage, is unique. We empirically show that the relevance of triples for sampling (a semantic notion) is influenced by the topology of the graph (purely structural), and can be determined without prior knowledge of the queries. Experiments show a significantly higher recall of topology based sampling methods over random and naive baseline approaches (e.g. up to 90% for Open-BioMed at a sample size of 6%).", 
+                    "author": "Laurens Rietveld, Rinke Hoekstra, Stefan Schlobach and Christophe Guéret", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970081-structural-properties-as-proxy-for-semantic-relevance-in-rdf-graph-sampling.pdf", 
+                    "pages": "81-96", 
+                    "paper_id_x": "87970081", 
+                    "title": "Structural Properties as Proxy for Semantic Relevance in RDF Graph Sampling", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Many RDF descriptions today are text-rich: besides structured data they also feature much unstructured text. Text-rich RDF data is frequently queried via predicates matching structured data, combined with string predicates for textual constraints (hybrid queries). Evaluating hybrid queries efficiently requires means for selectivity estimation. Previous works on selectivity estimation, however, suffer from inherent drawbacks, which are reflected in efficiency and effectiveness issues. We propose a novel estimation approach, TopGuess, which exploits topic models as data synopsis. This way, we capture correlations between structured and unstructured data in a holistic and compact manner. We study TopGuess in a theoretical analysis and show it to guarantee a linear space complexity w.r.t. text data size. Further, we show selectivity estimation time complexity to be independent from the synopsis size. In experiments on real-world data, TopGuess allowed for great improvements in estimation accuracy, without sacrificing efficiency.", 
+                    "author": "Andreas Wagner, Veli Bicer, Thanh Tran and Rudi Studer", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970097-holistic-and-compact-selectivity-estimation-for-hybrid-queries-over-rdf-graphs.pdf", 
+                    "pages": "97-112", 
+                    "paper_id_x": "87970097", 
+                    "title": "Holistic and Compact Selectivity Estimation for Hybrid Queries over RDF Graphs", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "An increasing amount of data is becoming available in the form of large triple stores, with the Semantic Web’s linked open data cloud (LOD) as one of the most prominent examples. Data quality and completeness are key issues in many community-generated data stores, like LOD, which motivates probabilistic and statistical approaches to data representation, reasoning and querying. In this paper we address the issue from the perspective of probabilistic databases, which account for uncertainty in the data via a probability distribution over all database instances. We obtain a highly compressed representation using the recently developed RESCAL approach and demonstrate experimentally that efficient querying can be obtained by exploiting inherent features of RESCAL via sub-query approximations of deterministic views.", 
+                    "author": "Denis Krompaß, Maximilian Nickel and Volker Tresp", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970113-querying-factorized-probabilistic-triple-databases.pdf", 
+                    "pages": "113-128", 
+                    "paper_id_x": "87970113", 
+                    "title": "Querying Factorized Probabilistic Triple Databases", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "We identify a class of Horn ontologies for which standard reasoning tasks such as instance checking and classification are tractable. The class is general enough to include the OWL 2 EL, QL, and RL profiles. Verifying whether a Horn ontology belongs to the class can be done in polynomial time. We show empirically that the class includes many real-world ontologies that are not included in any OWL 2 profile, and thus that polynomial time reasoning is possible for these ontologies.", 
+                    "author": "David Carral, Cristina Feier, Bernardo Cuenca Grau, Pascal Hitzler and Ian Horrocks", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970145-pushing-the-boundaries-of-tractable-ontology-reasoning.pdf", 
+                    "pages": "145-160", 
+                    "paper_id_x": "87970145", 
+                    "title": "Pushing the Boundaries of Tractable Ontology Reasoning", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "We study the problem of approximating Description Logic (DL) ontologies specified in a source language LS in terms of a less expressive target language LT . This problem is getting very relevant in practice: e.g., approximation is often needed in ontology-based data access systems, which are able to deal with ontology languages of a limited expressiveness. We first provide a general, parametric, and semantically well-founded definition of maximal sound approximation of a DL ontology. Then, we present an algorithm that is able to effectively compute two different notions of maximal sound approximation according to the above parametric semantics when the source ontology language is OWL 2 and the target ontology language is OWL 2 QL. Finally, we experiment the above algorithm by computing the two OWL 2 QL approximations of a large set of existing OWL 2 ontologies. The experimental results allow us both to evaluate the effectiveness of the proposed notions of approximation and to compare the two different notions of approximation in real cases.", 
+                    "author": "Marco Console, Jose Mora, Riccardo Rosati, Valerio Santarelli and Domenico Fabio Savo", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970161-effective-computation-of-maximal-sound-approximations-of-description-logic-ontologies.pdf", 
+                    "pages": "161-176", 
+                    "paper_id_x": "87970161", 
+                    "title": "Effective computation of maximal sound approximations of Description Logic ontologies", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "We present a new procedure for ontology materialization (computing all entailed instances of every atomic concept) in which reasoning over a large ABox is reduced to reasoning over a smaller “abstract” ABox. The abstract ABox is obtained as the result of a fixed-point computation involving two stages: 1) abstraction: partition the individuals into equivalence classes based on told information and use one representative individual per equivalence class, and 2) refinement: iteratively split (refine) the equivalence classes, when new assertions are derived that distinguish individuals within the same class. We prove that the method is complete for Horn ALCHOI ontologies, that is, all entailed instances will be derived once the fixed-point is reached. We implement the procedure in a new database-backed reasoning system and evaluate it empirically on existing ontologies with large ABoxes. We demonstrate that the obtained abstract ABoxes are significantly smaller than the original ones and can be computed with few refinement steps.", 
+                    "author": "Birte Glimm, Yevgeny Kazakov, Thorsten Liebig, Trung-Kien Tran and Vincent Vialard", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970177-abstraction-refinement-for-ontology-materialization.pdf", 
+                    "pages": "177-192", 
+                    "paper_id_x": "87970177", 
+                    "title": "Abstraction Refinement for Ontology Materialization", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "EL is a family of tractable Description Logics (DLs) that is the basis of the OWL 2 EL profile. Unlike for many expressive DLs, reasoning in EL can be performed by computing a deductively-closed set of logical consequences of some specific form. In some ontology-based applications, e.g., for ontology debugging, knowing the logical consequences of the ontology axioms is often not sufficient. The user also needs to know from which axioms and how the consequences were derived. Although it is possible to record all inference steps during the application of rules, this is usually not done in practice to avoid the overheads. In this paper, we present a goal-directed method that can generate inferences for selected consequences in the deductive closure without re-applying all rules from scratch. We provide an empirical evaluation demonstrating that the method is fast and economical for large EL ontologies. Although the main benefits are demonstrated for EL reasoning, the method can be potentially applied to many other procedures based on deductive closure computation using fixed sets of rules.", 
+                    "author": "Yevgeny Kazakov and Pavel Klinov", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970193-goal-directed-tracing-of-inferences-in-el-ontologies.pdf", 
+                    "pages": "193-208", 
+                    "paper_id_x": "87970193", 
+                    "title": "Goal-Directed Tracing of Inferences in EL Ontologies", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "RDF streams are sequences of timestamped RDF statements or graphs, which can be generated by several types of data sources (sensors, social networks, etc.). They may provide data at high volumes and rates, and be consumed by applications that require real-time responses. Hence it is important to publish and interchange them efficiently. In this paper, we exploit a key feature of RDF data streams, which is the regularity of their structure and data values, proposing a compressed, efficient RDF interchange (ERI) format, which can reduce the amount of data transmitted when processing RDF streams. Our experimental evaluation shows that our format produces state-of-the-art streaming compression, remaining efficient in performance.", 
+                    "author": "Javier D. Fernández, Alejandro Llaves and Oscar Corcho", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970241-efficient-rdf-interchange-eri-format-for-rdf-data-streams.pdf", 
+                    "pages": "241-256", 
+                    "paper_id_x": "87970241", 
+                    "title": "Efficient RDF Interchange (ERI) Format for RDF Data Streams", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "We propose a knowledge-driven activity recognition and segmentation framework introducing the notion of context connections. Given an RDF dataset of primitive observations, our aim is to identify, link and classify meaningful contexts that signify the presence of complex activities, coupling background knowledge pertinent to generic contextual dependencies among activities. To this end, we use the Situation concept of the DOLCE+DnS Ultralite (DUL) ontology to formally capture the context of high-level activities. Moreover, we use context similarity measures to handle the intrinsic characteristics of pervasive environments in real-world conditions, such as missing information, temporal inaccuracies or activities that can be performed in several ways. We illustrate the performance of the proposed framework through its deployment in a hospital for monitoring activities of Alzheimer’s disease patients.", 
+                    "author": "Georgios Meditskos, Efstratios Kontopoulos and Ioannis Kompatsiaris", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970257-knowledge-driven-activity-recognition-and-segmentation-using-context-connections.pdf", 
+                    "pages": "257-272", 
+                    "paper_id_x": "87970257", 
+                    "title": "Knowledge-driven Activity Recognition and Segmentation Using Context Connections", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Agricultural decision support systems are an important application of real-time sensing and environmental monitoring. With the continuing increase in the number of sensors deployed, selecting sensors that are fit for purpose is a growing challenge. Ontologies that represent sensors and observations can form the basis for semantic sensor data infrastructures. Such ontologies may help to cope with the problems of sensor discovery, data integration, and re-use, but need to be used in conjunction with algorithms for sensor selection and ranking. This paper describes a method for selecting and ranking sensors based on the requirements of predictive models. It discusses a Viticulture use case that demonstrates the complexity of semantic modelling and reasoning for the automated ranking of sensors according to the requirements on environmental variables as input to predictive analytical models. The quality of the ranking is validated against the quality of outputs of a predictive model using different sensors.", 
+                    "author": "Liliana Cabral, Michael Compton and Heiko Mueller", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970273-a-use-case-in-semantic-modelling-and-ranking-for-the-sensor-web.pdf", 
+                    "pages": "273-288", 
+                    "paper_id_x": "87970273", 
+                    "title": "A Use Case in Semantic Modelling and Ranking for the Sensor Web", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Most existing approaches to Twitter sentiment analysis assume that sentiment is explicitly expressed through affective words. Nevertheless, sentiment is often implicitly expressed via latent semantic relations, patterns and dependencies among words in tweets. In this paper, we propose a novel approach that automatically captures patterns of words of similar contextual semantics and sentiment in tweets. Unlike previous work on sentiment pattern extraction, our proposed approach does not rely on external and fixed sets of syntactical templates/patterns, nor requires deep analyses of the syntactic structure of sentences in tweets. We evaluate our approach with tweet- and entity-level sentiment analysis tasks by using the extracted semantic patterns as classification features in both tasks. We use 9 Twitter datasets in our evaluation and compare the performance of our patterns against 6 state-of-the-art baselines. Results show that our patterns consistently outperform all other baselines on all datasets by 2.19% at the tweet-level and 7.5% at the entity-level in average F-measure.", 
+                    "author": "Hassan Saif, Yulan He, Miriam Fernandez and Harith Alani", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970321-semantic-patterns-for-sentiment-analysis-of-twitter.pdf", 
+                    "pages": "321-336", 
+                    "paper_id_x": "87970321", 
+                    "title": "Semantic Patterns for Sentiment Analysis of Twitter", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Social media has become an effective channel for communicating both trends and public opinion on current events. However the automatic topic classification of social media content pose various challenges. Topic classification is a common technique used for automatically capturing themes that emerge from social media streams. However, such techniques are sensitive to the evolution of topics when new event-dependent vocabularies start to emerge (e.g., Crimea becoming relevant to War Conflict during the Ukraine crisis in 2014). Therefore, traditional supervised classification methods which rely on labelled data could rapidly become outdated. In this paper we propose a novel transfer learning approach to address the classification task of new data when the only available labelled data belong to a previous epoch. This approach relies on the incorporation of knowledge from DBpedia graphs. Our findings show promising results in understanding how features age, and how semantic features can support the evolution of topic classifiers.", 
+                    "author": "A. Elizabeth Cano, Yulan He and Harith Alani", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970337-stretching-the-life-of-twitter-classifiers-with-time-stamped-semantic-graphs.pdf", 
+                    "pages": "337-352", 
+                    "paper_id_x": "87970337", 
+                    "title": "Stretching the Life of Twitter Classifiers with Time-Stamped Semantic Graphs", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "We study the semantics of SPARQL queries with optional matching features under entailment regimes. We argue that the normative semantics may lead to answers that are in conflict with the intuitive meaning of optional matching, where unbound variables naturally represent unknown information. We propose an extension of the SPARQL algebra that addresses these issues and is compatible with any entailment regime satisfying the minimal requirements given in the normative specification. We then study the complexity of query evaluation and show that our extension comes at no cost for regimes with an entailment relation of reasonable complexity. Finally, we show that our semantics preserves the known properties of optional matching that are commonly exploited for static analysis and optimisation.", 
+                    "author": "Egor V. Kostylev and Bernardo Cuenca Grau", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970369-on-the-semantics-of-sparql-queries-with-optional-matching-under-entailment-regimes.pdf", 
+                    "pages": "369-384", 
+                    "paper_id_x": "87970369", 
+                    "title": "On the Semantics of SPARQL Queries with Optional Matching under Entailment Regimes", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "A common way for exposing RDF data on the Web is by means of SPARQL endpoints which allow end users and applications to query just the RDF data they want. However, servers hosting SPARQL endpoints often restrict access to the data by limiting the amount of results returned per query or the amount of queries per time that a client may issue. As this may affect query completeness when using SPARQL1.1’s federated query extension, we analysed different strategies to implement federated queries with the goal to circumvent endpoint limits. We show that some seemingly intuitive methods for decomposing federated queries provide unsound results in the general case, and provide fixes or discuss under which restrictions these recipes are still applicable. Finally, we evaluate the proposed strategies for checking their feasibility in practice.", 
+                    "author": "Carlos Buil-Aranda, Axel Polleres and Jürgen Umbrich", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970385-strategies-for-executing-federated-queries-in-sparql11.pdf", 
+                    "pages": "385-400", 
+                    "paper_id_x": "87970385", 
+                    "title": "Strategies for executing federated queries in SPARQL1.1", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "In this work we address the problem of using any third-party custom sparql function by only knowing its URI, allowing the computation to be executed on the remote endpoint that defines and implements such function. We present a standard-compliant solution that does not require changes to the current syntax or semantics of the language, based on the use of a call function. In contrast to the plain “Extensible Value Testing” described in the W3C Recommendations for the sparql Query Language, our approach is interoperable, that is, not dependent on the specific implementation of the endpoint being used for the query, relying instead on the implementation of the endpoint that declares and makes the function available, therefore reducing interoperability issues to one single case for which we provide an open source implementation. Further, the proposed solution for using custom functions within sparql queries is quite expressive, allowing for true higher-order functions, where functions can be assigned to variables and used as both inputs and outputs, enabling a generation of Web APIs for sparql that we call Web of Functions. The paper also shows different approaches on how our proposal can be applied to existing endpoints, including a SPARQL-to-SPARQL compiler that makes the use of call unnecessary, by exploiting nonnormative sections in the Federated Query W3C Recommendations that are currently implemented on some popular sparql engines. We finally evaluate the effectiveness of our proposal reporting our experiments on two popular engines.", 
+                    "author": "Maurizio Atzori", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970401-toward-the-web-of-functions-interoperable-higher-order-functions-in-sparql.pdf", 
+                    "pages": "401-416", 
+                    "paper_id_x": "87970401", 
+                    "title": "Toward the Web of Functions: Interoperable Higher-Order Functions in SPARQL", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Searching for associations between entities is needed in many areas. On the Semantic Web, it usually boils down to finding paths that connect two entities in an entity-relation graph. Given the increasing volume of data, apart from the efficiency of path finding, recent research interests have focused on how to help users explore a large set of associations that have been found. To achieve this, we propose an approach to exploratory association search, called Explass, which provides a flat list (top-K) of clusters and facet values for refocusing and refining the search. Each cluster is labeled with an ontological pattern, which gives a conceptual summary of the associations in the cluster. Facet values comprise classes of entities and relations appearing in associations. To recommend frequent, informative, and small-overlapping patterns and facet values, we exploit ontological semantics, query context, and information theory. We compare Explass with two existing approaches by conducting a user study over DBpedia, and test the statistical significance of the results.", 
+                    "author": "Gong Cheng, Yanan Zhang and Yuzhong Qu", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970417-explass-exploring-associations-between-entities-via-top-k-ontological-patterns-and-facets.pdf", 
+                    "pages": "417-432", 
+                    "paper_id_x": "87970417", 
+                    "title": "Explass: Exploring Associations between Entities via Top-K Ontological Patterns and Facets", 
+                    "track": "Research Track Paper"
+                }, 
+                {
+                    "abstract": "Linked data is increasingly available through SPARQL endpoints, but exploration and question answering by regular Web users largely remain an open challenge. Users have to choose between the expressivity of formal languages such as SPARQL, and the usability of tools based on navigation and visualization. In a previous work, we have proposed Query-based Faceted Search (QFS) as a way to reconcile the expressivity of formal languages and the usability of faceted search. In this paper, we further reconcile QFS with scalability and portability by building QFS over SPARQL endpoints. We also improve expressivity and readability. Many SPARQL features are now covered: multidimensional queries, union, negation, optional, filters, aggregations, ordering. Queries are now verbalized in English, so that no knowledge of SPARQL is ever necessary. All of this is implemented in a portable Web application, Sparklis1, and has been evaluated on many endpoints and questions.", 
+                    "author": "Sébastien Ferré", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970433-expressive-and-scalable-query-based-faceted-search-over-sparql-endpoints.pdf", 
+                    "pages": "433-448", 
+                    "paper_id_x": "87970433", 
+                    "title": "Expressive and Scalable Query-based Faceted Search over SPARQL Endpoints", 
+                    "track": "Research Track Paper"
+                }
+            ], 
+            "title": "Research Track Paper"
+        }, 
+        {
+            "papers": [
+                {
+                    "abstract": "Wikidata is the central data management platform of Wikipedia. By the efforts of thousands of volunteers, the project has produced a large, open knowledge base with many interesting applications. The data is highly interlinked and connected to many other datasets, but it is also very rich, complex, and not available in RDF. To address this issue, we introduce new RDF exports that connect Wikidata to the Linked Data Web. We explain the data model of Wikidata and discuss its encoding in RDF. Moreover, we introduce several partial exports that provide more selective or simplified views on the data. This includes a class hierarchy and several other types of ontological axioms that we extract from the site. All datasets we discuss here are freely available online and updated regularly.", 
+                    "author": "Fredo Erxleben, Michael Günther, Markus Krötzsch, Julian Mendez and Denny Vrandečić", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960049-introducing-wikidata-to-the-linked-data-web.pdf", 
+                    "pages": "49-64", 
+                    "paper_id_x": "87960049", 
+                    "title": "Introducing Wikidata to the Linked Data Web", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "Only a small fraction of the information on the Web is represented as Linked Data. This lack of coverage is partly due to the paradigms followed so far to extract Linked Data. While converting structured data to RDF is well supported by tools, most approaches to extract RDF from semi-structured data rely on extraction methods based on ad-hoc solutions. In this paper, we present a holistic and open-source framework for the extraction of RDF from templated websites. We discuss the architecture of the framework and the initial implementation of each of its components. In particular, we present a novel wrapper induction technique that does not require any human supervision to detect wrappers for web sites. Our framework also includes a consistency layer with which the data extracted by the wrappers can be checked for logical consistency. We evaluate the initial version of REX on three different datasets. Our results clearly show the potential of using templated Web pages to extend the Linked Data Cloud. Moreover, our results indicate the weaknesses of our current implementations and how they can be extended.", 
+                    "author": "Lorenz Bühmann, Ricardo Usbeck, Axel-Cyrille Ngonga Ngomo, Muhammad Saleem, Andreas Both, Valter Crescenzi, Paolo Merialdo and Disheng Qiu", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960065-web-scale-extension-of-rdf-knowledge-bases-from-templated-websites.pdf", 
+                    "pages": "65-80", 
+                    "paper_id_x": "87960065", 
+                    "title": "Web-Scale Extension of RDF Knowledge Bases from Templated Websites", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "The Resource Description Framework (RDF) is a standard for conceptually describing data on the Web, and SPARQL is the query language for RDF. As RDF data continue to be published across heterogeneous domains and integrated at Web-scale such as in the Linked Open Data (LOD) cloud, RDF data management systems are being exposed to queries that are far more diverse and workloads that are far more varied. The first contribution of our work is an indepth experimental analysis that shows existing SPARQL benchmarks are not suitable for testing systems for diverse queries and varied workloads. To address these shortcomings, our second contribution is the Waterloo SPARQL Diversity Test Suite (WatDiv) that provides stress testing tools for RDF data management systems. Using WatDiv, we have been able to reveal issues with existing systems that went unnoticed in evaluations using earlier benchmarks. Specifically, our experiments with five popular RDF data management systems show that they cannot deliver good performance uniformly across workloads. For some queries, there can be as much as five orders of magnitude difference between the query execution time of the fastest and the slowest system while the fastest system on one query may unexpectedly time out on another query. By performing a detailed analysis, we pinpoint these problems to specific types of queries and workloads.", 
+                    "author": "Gunes Aluc, Olaf Hartig, Tamer Ozsu and Khuzaima Daudjee", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960193-diversified-stress-testing-of-rdf-data-management-systems.pdf", 
+                    "pages": "193-208", 
+                    "paper_id_x": "87960193", 
+                    "title": "Diversified Stress Testing of RDF Data Management Systems", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "It is widely accepted that proper data publishing is difficult. The majority of Linked Open Data (LOD) does not meet even a core set of data publishing guidelines. Moreover, datasets that are clean at creation, can get stains over time. As a result, the LOD cloud now contains a high level of dirty data that is difficult for humans to clean and for machines to process. Existing solutions for cleaning data (standards, guidelines, tools) are targeted towards human data creators, who can (and do) choose not to use them. This paper presents the LOD Laundromat which removes stains from data without any human intervention. This fully automated approach is able to make very large amounts of LOD more easily available for further processing right now. LOD Laundromat is not a new dataset, but rather a uniform point of entry to a collection of cleaned siblings of existing datasets. It provides researchers and application developers a wealth of data that is guaranteed to conform to a specified set of best practices, thereby greatly improving the chance of data actually being (re)used.", 
+                    "author": "Wouter Beek, Laurens Rietveld, Hamidreza Bazoubandi, Jan Wielemaker and Stefan Schlobach", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960209-lod-laundromat-a-uniform-way-of-publishing-other-peoples-dirty-data.pdf", 
+                    "pages": "209-224", 
+                    "paper_id_x": "87960209", 
+                    "title": "LOD Laundromat: A Uniform Way of Publishing Other People's Dirty Data", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "We present the Dutch Ships and Sailors Linked Data Cloud. This heterogeneous dataset brings together four curated datasets on Dutch Maritime history as five-star linked data. The individual datasets use separate datamodels, designed in close collaboration with maritime historical researchers. The individual models are mapped to a common interoperability layer, allowing for analysis of the data on the general level. We present the datasets, modeling decisions, internal links and links to external data sources. We show ways of accessing the data and present a number of examples of how the dataset can be used for historical research. The Dutch Ships and Sailors Linked Data Cloud is a potential hub dataset for digital history research and a prime example of the benefits of Linked Data for this field.", 
+                    "author": "Victor de Boer, Jur Leinenga, Matthias van Rossum and Rik Hoekstra", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960225-dutch-ships-and-sailors-linked-data.pdf", 
+                    "pages": "225-240", 
+                    "paper_id_x": "87960225", 
+                    "title": "Dutch Ships and Sailors Linked Data", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "The central idea of Linked Data is that data publishers support applications in discovering and integrating data by complying to a set of best practices in the areas of linking, vocabulary usage, and metadata provision. In 2011, the State of the LOD Cloud report analyzed the adoption of these best practices by linked datasets within different topical domains. The report was based on information that was provided by the dataset publishers themselves via the datahub.io Linked Data catalog. In this paper, we revisit and update the findings of the 2011 State of the LOD Cloud report based on a crawl of the Web of Linked Data conducted in April 2014. We analyze how the adoption of the different best practices has changed and present an overview of the linkage relationships between datasets in the form of an updated LOD cloud diagram, this time not based on information from dataset providers, but on data that can actually be retrieved by a Linked Data crawler. Among others, we find that the number of linked datasets has approximately doubled between 2011 and 2014, that there is increased agreement on common vocabularies for describing certain types of entities, and that provenance and license metadata is still rarely provided by the data sources.", 
+                    "author": "Max Schmachtenberg, Christian Bizer and Heiko Paulheim", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960241-adoption-of-linked-data-best-practices-in-different-topical-domains.pdf", 
+                    "pages": "241-256", 
+                    "paper_id_x": "87960241", 
+                    "title": "Adoption of Linked Data Best Practices in Different Topical Domains", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "In order to support web applications to understand the content of HTML pages an increasing number of websites have started to annotate structured data within their pages using markup formats such as Microdata, RDFa, Microformats. The annotations are used by Google, Yahoo!, Yandex, Bing and Facebook to enrich search results and to display entity descriptions within their applications. In this paper, we present a series of publicly accessible Microdata, RDFa, Microformats datasets that we have extracted from three large web corpora dating from 2010, 2012 and 2013. Altogether, the datasets consist of almost 30 billion RDF quads. The most recent of the datasets contains amongst other data over 211 million product descriptions, 54 million reviews and 125 million postal addresses originating from thousands of websites. The availability of the datasets lays the foundation for further research on integrating and cleansing the data as well as for exploring its utility within different application contexts. As the dataset series covers four years, it can also be used to analyze the evolution of the adoption of the markup formats.", 
+                    "author": "Robert Meusel, Petar Petrovski and Christian Bizer", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960273-the-webdatacommons-microdata-rdfa-and-microformat-dataset-series.pdf", 
+                    "pages": "273-288", 
+                    "paper_id_x": "87960273", 
+                    "title": "The WebDataCommons Microdata, RDFa and Microformat Dataset Series", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "Linking Open Data (LOD) is the largest community effort for semantic data publishing which converts the Web from a Web of document to a Web of interlinked knowledge. While the state of the art LOD contains billion of triples describing millions of entities, it has only a limited number of schema information and is lack of schema-level axioms. To close the gap between the lightweight LOD and the expressive ontologies, we contribute to the complementary part of the LOD, that is, Linking Open Schema (LOS). In this paper, we introduce Zhishi.schema, the first effort to publish Chinese linked open schema. We collect navigational categories as well as dynamic tags from more than 50 various most popular social Web sites in China. We then propose a two-stage method to capture equivalence, subsumption and relate relationships between the collected categories and tags, which results in an integrated concept taxonomy and a large semantic network. Experimental results show the high quality of Zhishi.schema. Compared with category systems of DBpedia, Yago, BabelNet, and Freebase, Zhishi.schema has wide coverage of categories and contains the largest number of subsumptions between categories. When substituting Zhishi.schema for the original category system of Zhishi.me, we not only filter out incorrect category subsumptions but also add more finer-grained categories.", 
+                    "author": "Haofen Wang, Tianxing Wu, Guilin Qi and Tong Ruan", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960289-on-publishing-chinese-linked-open-schema.pdf", 
+                    "pages": "289-304", 
+                    "paper_id_x": "87960289", 
+                    "title": "On Publishing Chinese Linked Open Schema", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "Semantic Web technologies are used in a variety of domains for their ability to facilitate data integration, as well as enabling expressive, standards-based reasoning. Deploying Semantic Web reasoning processes directly on mobile devices has a number of advantages, including robustness to connectivity loss, more timely results, and reduced infrastructure requirements. At the same time, a number of challenges arise as well, related to mobile platform heterogeneity and limited computing resources. To tackle these challenges, it should be possible to benchmark mobile reasoning performance across different mobile platforms, with rule- and datasets of varying scale and complexity and existing reasoning process flows. To deal with the current heterogeneity of rule formats, a uniform rule- and data-interface on top of mobile reasoning engines should be provided as well. In this paper, we present a cross-platform benchmark framework that supplies 1) a generic, standards-based Semantic Web layer on top of existing mobile reasoning engines; and 2) a benchmark engine to investigate and compare mobile reasoning performance.", 
+                    "author": "William Van Woensel, Newres Al Haider, Ahmad Ahmad and Syed Sr Abidi", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960385-a-cross-platform-benchmarking-framework-for-mobile-semantic-web-reasoning-engines.pdf", 
+                    "pages": "385-400", 
+                    "paper_id_x": "87960385", 
+                    "title": "A Cross-Platform Benchmarking Framework for Mobile Semantic Web Reasoning Engines", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "We introduce a new methodology for benchmarking the performance per watt of semantic web reasoners and rule engines on smartphones to provide developers with information critical for deploying semantic web tools on power-constrained devices. We validate our methodology by applying it to three well-known reasoners and rule engines answering queries on two ontologies with expressivities in RDFS and OWL DL. While this validation was conducted on smartphones running Google’s Android operating system, our methodology is general and may be applied to different hardware platforms, reasoners, ontologies, and entire applications to determine performance relevant to power consumption. We discuss the implications of our findings for balancing tradeoffs of local computation versus communication costs for semantic technologies on mobile platforms, sensor networks, the Internet of Things, and other power-constrained environments.", 
+                    "author": "Evan Patton and Deborah McGuinness", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960401-a-power-consumption-benchmark-for-reasoners-on-mobile-devices.pdf", 
+                    "pages": "401-416", 
+                    "paper_id_x": "87960401", 
+                    "title": "A Power Consumption Benchmark for Reasoners on Mobile Devices", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "In this paper, we present Semano — a generic framework for annotating natural language texts with entities of OWL 2 DL ontologies. Semano generalizes the mechanism of JAPE transducers that has been introduced within the General Architecture for Text Engineering (GATE) to enable modular development of annotation rule bases. The core of the Semano rule base model are rule templates called japelates and their instantiations. While Semano is generic and does not make assumptions about the document characteristics used within japelates, it provides several generic japelates that can serve as a starting point. Also, Semano provides a tool that can generate an initial rule base from an ontology. The generated rule base can be easily extended to meet the requirements of the application in question. In addition to its Java API, Semano includes two GUI components — a rule base editor and an annotation viewer. In combination with the default japelates and the rule generator, these GUI components can be used by domain experts that are not familiar with the technical details of the framework to set up a domain-specific annotator. In this paper, we introduce the rule base model of Semano, provide examples of adapting the rule base to meet particular application requirements and report our experience with applying Semano within the domain of nano technology.", 
+                    "author": "David Robert Berry and Nadeschda Nikitina", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960495-semano-semantic-annotation-framework-for-natural-language-resources.pdf", 
+                    "pages": "495-510", 
+                    "paper_id_x": "87960495", 
+                    "title": "Semano: Semantic Annotation Framework for Natural Language Resources", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "A considerable portion of the information on the Web is still only available in unstructured form. Implementing the vision of the Semantic Web thus requires transforming this unstructured data into structured data. One key step during this process is the recognition of named entities. Previous works suggest that ensemble learning can be used to improve the performance of named entity recognition tools. However, no comparison of the performance of existing supervised machine learning approaches on this task has been presented so far. We address this research gap by presenting a thorough evaluation of named entity recognition based on ensemble learning. To this end, we combine four different state-of-the approaches by using 15 different algorithms for ensemble learning and evaluate their performace on five different datasets. Our results suggest that ensemble learning can reduce the error rate of state-of-the-art named entity recognition systems by 40%, thereby leading to over 95% f-score in our best run.", 
+                    "author": "René Speck and Axel-Cyrille Ngonga Ngomo", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87960511-ensemble-learning-for-named-entity-recognition.pdf", 
+                    "pages": "511-526", 
+                    "paper_id_x": "87960511", 
+                    "title": "Ensemble Learning for Named Entity Recognition", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "The Ontology Alignment Evaluation Initiative is a set of benchmarks for evaluating the performance of ontology alignment systems. In this paper we re-examine the Conference track of the OAEI, with a focus on the degree of agreement between the reference alignments within this track and the opinion of experts. We propose a new version of this benchmark that more closely corresponds to expert opinion and confidence on the matches. The performance of top alignment systems is compared on both versions of the benchmark. Additionally, a general method for crowdsourcing the development of more benchmarks of this type using Amazon’s Mechanical Turk is introduced and shown to be scalable, cost-effective and to agree well with expert opinion.", 
+                    "author": "Michelle Cheatham and Pascal Hitzler", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970033-conference-v20-an-uncertain-version-of-the-oaei-conference-benchmark.pdf", 
+                    "pages": "33-48", 
+                    "paper_id_x": "87970033", 
+                    "title": "Conference v2.0: An uncertain version of the OAEI Conference benchmark", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "The Atomic Decomposition of an ontology is a succinct representation of the logic-based modules in that ontology. Ultimately, it reveals the modular structure of the ontology. Atomic Decompositions appear to be useful for both user and non-user facing services. For example, they can be used for ontology comprehension and to facilitate reasoner optimisation. In this article we investigate claims about the practicality of computing Atomic Decompositions for naturally occurring ontologies. We do this by performing a replication study using an off-the-shelf Atomic Decomposition algorithm implementation on three large test corpora of OWL ontologies. Our findings indicate that (a) previously published empirical studies in this area are repeatable and verifiable; (b) computing Atomic Decompositions in the vast majority of cases is practical in that it can be performed in less than 30 seconds in 90% of cases, even for ontologies containing hundreds of thousands of axioms; (c) there are occurrences of extremely large ontologies (&lt; 1% in our test corpora) where the polynomial runtime behaviour of the Atomic Decomposition algorithm begins to bite and computations cannot be completed within 12-hours of CPU time; (d) the distribution of number of atoms in the Atomic Decomposition for an ontology appears to be similar for distinct corpora.", 
+                    "author": "Matthew Horridge, Jonathan Mortensen, Bijan Parsia, Uli Sattler and Mark Musen", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970065-a-study-on-the-atomic-decomposition-of-ontologies.pdf", 
+                    "pages": "65-80", 
+                    "paper_id_x": "87970065", 
+                    "title": "A Study on the Atomic Decomposition of Ontologies", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "Much of the recent work in Semantic Search is concerned with addressing the challenge of finding entities in the growing Web of Data. However, alongside this growth, there is a significant increase in the availability of ontologies that can be used to describe these entities. Whereas several methods have been proposed in Semantic Search to rank entities based on a keyword query, little work has been published on search and ranking of resources in ontologies. To the best of our knowledge, this work is the first to propose a benchmark suite for ontology search. The benchmark suite, named CBRBench3, includes a collection of ontologies that was retrieved by crawling a seed set of ontology URIs derived from prefix.cc and a set of queries derived from a real query log from the Linked Open Vocabularies search engine. Further, it includes the results for the ideal ranking of the concepts in the ontology collection for the identified set of query terms which was established based on the opinions of ten ontology engineering experts. We compared this ideal ranking with the top-k results retrieved by eight state-of-the-art ranking algorithms that we have implemented and calculated the precision at k, the mean average precision and the discounted cumulative gain to determine the best performing ranking model. Our study shows that content-based ranking models outperform graph-based ranking models for most queries on the task of ranking concepts in ontologies. However, as the performance of the ranking models on ontologies is still far inferior to the performance of state-of-the-art algorithms on the ranking of documents based on a keyword query, we put forward four recommendations that we believe can significantly improve the accuracy of these ranking models when searching for resources in ontologies.", 
+                    "author": "Anila Sahar Butt, Armin Haller and Lexing Xie", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970129-ontology-search-an-empirical-evaluation.pdf", 
+                    "pages": "129-144", 
+                    "paper_id_x": "87970129", 
+                    "title": "Ontology Search: An Empirical Evaluation", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }, 
+                {
+                    "abstract": "In this paper we introduce the CrowdTruth open-source software framework for machine-human computation, that implements a novel approach to gathering human annotation data for a variety of media (e.g. text, image, video). The CrowdTruth approach embodied in the software captures human semantics through a pipeline of four processes: a) combining various machine processing of media in order to better understand the input content and optimize its suitability for micro-tasks, thus optimize the time and cost of the crowdsourcing process; b) providing reusable human-computing task templates to collect the maximum diversity in the human interpretation, thus collect richer human semantics; c) implementing ’disagreement metrics’, i.e. CrowdTruth metrics, to support deep analysis of the quality and semantics of the crowdsourcing data; and d) providing an interface to support data and results visualization. Instead of the traditional inter-annotator agreement, we use their disagreement as a useful signal to evaluate the data quality, ambiguity and vagueness. We demonstrate the applicability and robustness of this approach to a variety of problems across multiple domains. Moreover, we show the advantages of using open standards and the extensibility of the framework with new data modalities and annotation tasks.", 
+                    "author": "Khalid Khamkham, Oana Inel, Tatiana Cristea, Arne Rutjes, Jelle van der Ploeg, Lora Aroyo, Robert-Jan Sips, Anca Dumitrache and Lukasz Romaszko", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970481-crowd-truth-machine-human-computation-framework-for-harnessing-disagreement-in-gathering-annotated-data.pdf", 
+                    "pages": "481-498", 
+                    "paper_id_x": "87970481", 
+                    "title": "Crowd Truth: Machine-Human Computation Framework for Harnessing Disagreement in Gathering Annotated Data", 
+                    "track": "Replication, Benchmark, Data and Software Track Paper"
+                }
+            ], 
+            "title": "Replication, Benchmark, Data and Software Track Paper"
+        }, 
+        {
+            "papers": [
+                {
+                    "abstract": "Almost all of the big name Web companies are currently engaged in building ‘knowledge graphs’ and these are showing significant results in improving search, email, calendaring, etc. Even the largest openly-accessible ones, such as Freebase and Wikidata, are far from complete, partly because new information is emerging so quickly. Most of the missing information is available on Web pages. To access that knowledge and populate knowledge bases, information extraction methods are necessitated. The bottleneck for information extraction systems is obtaining training data to learn classifiers. In this doctoral research, we investigate how existing data in knowledge bases can be used to automatically annotate training data to learn classifiers to in turn extract more data to expand knowledge bases. We discuss our hypotheses, approach, evaluation methods and present preliminary results.", 
+                    "author": "Isabelle Augenstein", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970499-joint-information-extraction-from-the-web-using-linked-data.pdf", 
+                    "pages": "499-506", 
+                    "paper_id_x": "87970499", 
+                    "title": "Joint Information Extraction from the Web using Linked Data", 
+                    "track": "Doctoral Consortium Paper"
+                }, 
+                {
+                    "abstract": "The recognition of entities in text is the basis for a series of applications. Synonymy and Ambiguity are among the biggest challenges in identifying such entities. Both challenges are addressed by Entity Linking, the task of grounding entity mentions in textual documents to Knowledge Base entries. Entity Linking has been based in the use of single cross-domain Knowledge Bases as source for entities. This PhD research proposes the use of multiple Knowledge Bases for Entity Linking as a way to increase the number of entities recognized in text. The problem of Entity Linking with Multiple Knowledge Bases is addressed by using textual and Knowledge Base features as contexts for Entity Linking, Ontology Modularization to select the most relevant subset of entity entries, and Collective Inference to decide the most suitable entity entry to link with each mention.", 
+                    "author": "Bianca De O. Pereira", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970507-entity-linking-with-multiple-knowledge-bases-an-ontology-modularization-approach.pdf", 
+                    "pages": "507-514", 
+                    "paper_id_x": "87970507", 
+                    "title": "Entity Linking with Multiple Knowledge Bases: an Ontology Modularization Approach", 
+                    "track": "Doctoral Consortium Paper"
+                }, 
+                {
+                    "abstract": "An Entity Name System (ENS) is a thesaurus for entities. An ENS is a fundamental component of data integration systems, serving instance matching needs across multiple data sources. Populating an ENS in support of co-referencing Linked Open Data (LOD) is a Big Data problem. Viable solutions to the long-standing Entity Resolution (ER) problem are required, meeting specific requirements of heterogeneity, scalability and automation. In this thesis, we propose to develop and implement algorithms for an ER system that address the three key criteria. Preliminary results demonstrate potential system feasibility.", 
+                    "author": "Mayank Kejriwal", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970515-populating-entity-name-systems-for-big-data-integration.pdf", 
+                    "pages": "515-522", 
+                    "paper_id_x": "87970515", 
+                    "title": "Populating Entity Name Systems for Big Data Integration", 
+                    "track": "Doctoral Consortium Paper"
+                }, 
+                {
+                    "abstract": "An increasing amount of information is being made available as online streams, and streams are expected to grow in importance in a variety of domains in the coming years (e.g., natural disaster response, surveillance, monitoring of criminal activity, and military planning [7, 22]). Semantic Web (SW) technologies have the potential to combine heterogeneous data sources, leveraging Linked Data principles, but traditional SW methods assume that data is more or less static, which is not the case for streams. The SW community has attempted to bring streams to a semantic level, i.e., Linked Stream Data, and a number of RDF stream processing engines have been produced [1, 4, 13, 20]. This thesis work aims at developing and evaluating techniques for creating aggregated and layered abstractions of events. These abstractions can be used by decision makers to create better situation awareness, assisting in identifying decision opportunities, structuring and summarizing decision problems, and decreasing cognitive workload.", 
+                    "author": "Robin Keskisärkkä", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970523-semantic-complex-event-processing-for-decision-support.pdf", 
+                    "pages": "523-530", 
+                    "paper_id_x": "87970523", 
+                    "title": "Semantic Complex Event Processing for Decision Support", 
+                    "track": "Doctoral Consortium Paper"
+                }, 
+                {
+                    "abstract": "The rapidly increasing number of scientific documents available publicly on the Internet creates the challenge of efficiently organizing and indexing these documents. Due to the time consuming and tedious nature of manual classification and indexing, there is a need for better methods to automate this process. This thesis proposes an approach which leverages encyclopedic background knowledge for enriching domain-specific ontologies with textual and structural information about the semantic vicinity of the ontologies’ concepts. The proposed approach aims to exploit this information for improving both ontology-based methods for classifying and indexing documents and methods based on supervised machine learning.", 
+                    "author": "Lisa Posch", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970531-enriching-ontologies-with-encyclopedic-background-knowledge-for-document-indexing.pdf", 
+                    "pages": "531-538", 
+                    "paper_id_x": "87970531", 
+                    "title": "Enriching Ontologies with Encyclopedic Background Knowledge for Document Indexing", 
+                    "track": "Doctoral Consortium Paper"
+                }, 
+                {
+                    "abstract": "Ontologies play a key role in the development of the Semantic Web and are being used in many diverse application domains such as biomedicine and energy industry. An application domain may have been modeled according to different points of view and purposes. This situation usually leads to the development of different ontologies that intuitively overlap, but that use different naming and modeling conventions. The problem of (semi-)automatically computing mappings between indepen- dently developed ontologies is usually referred to as the ontology matching prob- lem. A number of sophisticated ontology matching systems have been developed in the last years [5, 30]. These systems, however, rely on lexical and structural heuristics, and the integration of the input ontologies and the mappings may lead to many undesired logical consequences. In [13] three principles were pro- posed to minimise the number of potentially unintended consequences, namely: (i) consistency principle, the mappings should not lead to unsatisfiable classes in the integrated ontology, (ii) locality principle, the mappings should link enti- ties that have similar neighbourhoods, (iii) conservativity principle, the mappings should not introduce new semantic relationships between concepts from one of the input ontologies. Violations to these principles may hinder the usefulness of ontology mappings. Our aim is to develop effective and efficient detection and correction techniques for violations of the conservativity principle for ontology alignments.", 
+                    "author": "Alessandro Solimando", 
+                    "link_open_access": "https://github.com/lidingpku/iswc2014/raw/master/paper/87970539-detecting-and-correcting-conservativity-principle-violations-in-ontology-mappings.pdf", 
+                    "pages": "539-546", 
+                    "paper_id_x": "87970539", 
+                    "title": "Detecting and Correcting Conservativity Principle Violations in Ontology Mappings", 
+                    "track": "Doctoral Consortium Paper"
+                }
+            ], 
+            "title": "Doctoral Consortium Paper"
+        }
+    ]
+}
