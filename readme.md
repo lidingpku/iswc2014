@@ -1,3 +1,4 @@
+ [![](http://iswc2014.semanticweb.org/sites/iswc2014.fbk.eu/files/header900_0.png) Go to the official ISWC2014 conference website](http://iswc2014.semanticweb.org/)
 
 # Open Access Preprint Papers in ISWC 2014 Proceedings
 
