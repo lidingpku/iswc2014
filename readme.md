@@ -1,6 +1,6 @@
  [![](http://iswc2014.semanticweb.org/sites/iswc2014.fbk.eu/files/header900_0.png) Go to the official ISWC2014 conference website](http://iswc2014.semanticweb.org/)
 
-*Notice: This repo only host open access preprints of ISWC 2014 papers. Please go to http://lidingpku.github.io/iswc-archive/data/www/ to access ISWC 2014 metadata in RDF,CSV,JSON formats.*
+*Notice: This repo hosts preprints of ISWC 2014 papers. Please go to http://lidingpku.github.io/iswc-archive/data/www/ to access ISWC2014 metadata in RDF/Turtle,CSV,JSON formats.*
 
 
 # Open Access Preprint Papers in ISWC 2014 Proceedings
