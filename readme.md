@@ -1,6 +1,6 @@
  [![](http://iswc2014.semanticweb.org/sites/iswc2014.fbk.eu/files/header900_0.png) Go to the official ISWC2014 conference website](http://iswc2014.semanticweb.org/)
 
-Currently, http://data.semanticweb.org hosts past ISWC conference metadata in RDF format. For ISWC metadata 2014 in RDF,CSV,JSON,HTML format, checkout [ISWC metadata](http://lidingpku.github.io/iswc-archive/data/www/). 
+*Notice: This repo only host open access preprints of ISWC 2014 papers. Please go to http://lidingpku.github.io/iswc-archive/data/www/ to access ISWC 2014 metadata in RDF,CSV,JSON formats.*
 
 
 # Open Access Preprint Papers in ISWC 2014 Proceedings
